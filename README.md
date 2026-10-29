@@ -57,6 +57,8 @@ Each industry has its own **8-supplier roster** (3 called, 5 screened), its own 
 </tr>
 </table>
 
+<sub>Also responsive at 390 px — [mobile view](docs/screenshots/mobile.png).</sub>
+
 ---
 
 ## How the decision is made
