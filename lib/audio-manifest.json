@@ -1,0 +1,218 @@
+{
+  "shreeji-01": {
+    "path": "/audio/shreeji-01.mp3",
+    "duration": 13.73
+  },
+  "shreeji-02": {
+    "path": "/audio/shreeji-02.mp3",
+    "duration": 9.58
+  },
+  "shreeji-03": {
+    "path": "/audio/shreeji-03.mp3",
+    "duration": 9.5
+  },
+  "shreeji-04": {
+    "path": "/audio/shreeji-04.mp3",
+    "duration": 9.82
+  },
+  "shreeji-05": {
+    "path": "/audio/shreeji-05.mp3",
+    "duration": 6.94
+  },
+  "shreeji-06": {
+    "path": "/audio/shreeji-06.mp3",
+    "duration": 6.46
+  },
+  "ecopack-01": {
+    "path": "/audio/ecopack-01.mp3",
+    "duration": 13.34
+  },
+  "ecopack-02": {
+    "path": "/audio/ecopack-02.mp3",
+    "duration": 8.45
+  },
+  "ecopack-03": {
+    "path": "/audio/ecopack-03.mp3",
+    "duration": 5.02
+  },
+  "ecopack-04": {
+    "path": "/audio/ecopack-04.mp3",
+    "duration": 6.94
+  },
+  "ecopack-05": {
+    "path": "/audio/ecopack-05.mp3",
+    "duration": 4.13
+  },
+  "ecopack-06": {
+    "path": "/audio/ecopack-06.mp3",
+    "duration": 3.98
+  },
+  "prime-01": {
+    "path": "/audio/prime-01.mp3",
+    "duration": 12.38
+  },
+  "prime-02": {
+    "path": "/audio/prime-02.mp3",
+    "duration": 10.3
+  },
+  "prime-03": {
+    "path": "/audio/prime-03.mp3",
+    "duration": 6.94
+  },
+  "prime-04": {
+    "path": "/audio/prime-04.mp3",
+    "duration": 8.78
+  },
+  "prime-05": {
+    "path": "/audio/prime-05.mp3",
+    "duration": 4.13
+  },
+  "prime-06": {
+    "path": "/audio/prime-06.mp3",
+    "duration": 3.41
+  },
+  "sahyadri-01": {
+    "path": "/audio/sahyadri-01.mp3",
+    "duration": 11.33
+  },
+  "sahyadri-02": {
+    "path": "/audio/sahyadri-02.mp3",
+    "duration": 10.94
+  },
+  "sahyadri-03": {
+    "path": "/audio/sahyadri-03.mp3",
+    "duration": 9.1
+  },
+  "sahyadri-04": {
+    "path": "/audio/sahyadri-04.mp3",
+    "duration": 9.34
+  },
+  "deccan-01": {
+    "path": "/audio/deccan-01.mp3",
+    "duration": 11.66
+  },
+  "deccan-02": {
+    "path": "/audio/deccan-02.mp3",
+    "duration": 12.94
+  },
+  "deccan-03": {
+    "path": "/audio/deccan-03.mp3",
+    "duration": 3.98
+  },
+  "deccan-04": {
+    "path": "/audio/deccan-04.mp3",
+    "duration": 5.5
+  },
+  "punegrain-01": {
+    "path": "/audio/punegrain-01.mp3",
+    "duration": 7.97
+  },
+  "punegrain-02": {
+    "path": "/audio/punegrain-02.mp3",
+    "duration": 7.49
+  },
+  "punegrain-03": {
+    "path": "/audio/punegrain-03.mp3",
+    "duration": 7.42
+  },
+  "punegrain-04": {
+    "path": "/audio/punegrain-04.mp3",
+    "duration": 7.49
+  },
+  "delhiworks-01": {
+    "path": "/audio/delhiworks-01.mp3",
+    "duration": 10.13
+  },
+  "delhiworks-02": {
+    "path": "/audio/delhiworks-02.mp3",
+    "duration": 11.18
+  },
+  "delhiworks-03": {
+    "path": "/audio/delhiworks-03.mp3",
+    "duration": 6.46
+  },
+  "delhiworks-04": {
+    "path": "/audio/delhiworks-04.mp3",
+    "duration": 10.54
+  },
+  "bharatoven-01": {
+    "path": "/audio/bharatoven-01.mp3",
+    "duration": 7.58
+  },
+  "bharatoven-02": {
+    "path": "/audio/bharatoven-02.mp3",
+    "duration": 8.86
+  },
+  "bharatoven-03": {
+    "path": "/audio/bharatoven-03.mp3",
+    "duration": 3.74
+  },
+  "bharatoven-04": {
+    "path": "/audio/bharatoven-04.mp3",
+    "duration": 5.57
+  },
+  "punjabsteel-01": {
+    "path": "/audio/punjabsteel-01.mp3",
+    "duration": 9.34
+  },
+  "punjabsteel-02": {
+    "path": "/audio/punjabsteel-02.mp3",
+    "duration": 9.5
+  },
+  "punjabsteel-03": {
+    "path": "/audio/punjabsteel-03.mp3",
+    "duration": 5.81
+  },
+  "punjabsteel-04": {
+    "path": "/audio/punjabsteel-04.mp3",
+    "duration": 6.62
+  },
+  "mumbailinen-01": {
+    "path": "/audio/mumbailinen-01.mp3",
+    "duration": 9.65
+  },
+  "mumbailinen-02": {
+    "path": "/audio/mumbailinen-02.mp3",
+    "duration": 9.17
+  },
+  "mumbailinen-03": {
+    "path": "/audio/mumbailinen-03.mp3",
+    "duration": 6.29
+  },
+  "mumbailinen-04": {
+    "path": "/audio/mumbailinen-04.mp3",
+    "duration": 8.54
+  },
+  "surattextile-01": {
+    "path": "/audio/surattextile-01.mp3",
+    "duration": 8.69
+  },
+  "surattextile-02": {
+    "path": "/audio/surattextile-02.mp3",
+    "duration": 8.78
+  },
+  "surattextile-03": {
+    "path": "/audio/surattextile-03.mp3",
+    "duration": 3.74
+  },
+  "surattextile-04": {
+    "path": "/audio/surattextile-04.mp3",
+    "duration": 5.57
+  },
+  "delhitowel-01": {
+    "path": "/audio/delhitowel-01.mp3",
+    "duration": 8.78
+  },
+  "delhitowel-02": {
+    "path": "/audio/delhitowel-02.mp3",
+    "duration": 9.58
+  },
+  "delhitowel-03": {
+    "path": "/audio/delhitowel-03.mp3",
+    "duration": 6.29
+  },
+  "delhitowel-04": {
+    "path": "/audio/delhitowel-04.mp3",
+    "duration": 7.58
+  }
+}

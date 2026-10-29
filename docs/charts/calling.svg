@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 430" width="960" height="430">
+<rect width="960" height="430" rx="16" fill="#F3EFE5" stroke="#D8CFBC"/>
+<text x="40" y="52" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="24" font-weight="700" fill="#171A16" letter-spacing="-0.5">Calls per sourcing run</text>
+<text x="40" y="76" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12.5" fill="#7D7E72">Manual buyer vs Munshi · illustrative</text>
+<rect x="640" y="42" width="10" height="10" rx="2" fill="#B9AF9B"/><text x="656" y="51" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11.5" fill="#54574E">Manual</text><rect x="750" y="42" width="10" height="10" rx="2" fill="#1E5B49"/><text x="766" y="51" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11.5" fill="#54574E">Munshi</text>
+<text x="40" y="128" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#171A16">Suppliers contacted</text>
+<rect x="250" y="112" width="630.0" height="13" rx="3" fill="#B9AF9B"/>
+<text x="888.0" y="123" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#7D7E72">8</text>
+<rect x="250" y="131" width="236.2" height="13" rx="3" fill="#1E5B49"/>
+<text x="494.2" y="142" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#1E5B49">3</text>
+<text x="40" y="172" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#171A16">Suppliers answered</text>
+<rect x="250" y="156" width="393.8" height="13" rx="3" fill="#B9AF9B"/>
+<text x="651.8" y="167" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#7D7E72">5</text>
+<rect x="250" y="175" width="236.2" height="13" rx="3" fill="#1E5B49"/>
+<text x="494.2" y="186" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#1E5B49">3</text>
+<text x="40" y="216" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#171A16">Quotes captured</text>
+<rect x="250" y="200" width="393.8" height="13" rx="3" fill="#B9AF9B"/>
+<text x="651.8" y="211" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#7D7E72">5</text>
+<rect x="250" y="219" width="236.2" height="13" rx="3" fill="#1E5B49"/>
+<text x="494.2" y="230" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#1E5B49">3</text>
+<text x="40" y="260" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#171A16">Follow-up calls</text>
+<rect x="250" y="244" width="472.5" height="13" rx="3" fill="#B9AF9B"/>
+<text x="730.5" y="255" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#7D7E72">6</text>
+<rect x="250" y="263" width="78.8" height="13" rx="3" fill="#1E5B49"/>
+<text x="336.8" y="274" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#1E5B49">1</text>
+<text x="40" y="378" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#54574E">Fewer calls, more complete quotes, and every answer written down.</text>
+<text x="40" y="410" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10.5" fill="#7D7E72">Illustrative. Munshi calls the 3 shortlisted suppliers and captures every quote field.</text>
+</svg>

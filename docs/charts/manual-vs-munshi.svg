@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 430" width="960" height="430">
+<rect width="960" height="430" rx="16" fill="#F3EFE5" stroke="#D8CFBC"/>
+<text x="40" y="52" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="24" font-weight="700" fill="#171A16" letter-spacing="-0.5">Time to a purchase decision</text>
+<text x="40" y="76" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12.5" fill="#7D7E72">Illustrative workflow comparison · not a measured benchmark</text>
+<rect x="640" y="42" width="10" height="10" rx="2" fill="#B9AF9B"/><text x="656" y="51" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11.5" fill="#54574E">Manual</text><rect x="750" y="42" width="10" height="10" rx="2" fill="#1E5B49"/><text x="766" y="51" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11.5" fill="#54574E">Munshi</text>
+<text x="40" y="128" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#171A16">Find suppliers</text>
+<rect x="250" y="112" width="196.9" height="13" rx="3" fill="#B9AF9B"/>
+<text x="454.9" y="123" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#7D7E72">1 h</text>
+<rect x="250" y="131" width="19.7" height="13" rx="3" fill="#1E5B49"/>
+<text x="277.7" y="142" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#1E5B49">0.1 h</text>
+<text x="40" y="172" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#171A16">Call suppliers</text>
+<rect x="250" y="156" width="590.6" height="13" rx="3" fill="#B9AF9B"/>
+<text x="848.6" y="167" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#7D7E72">3 h</text>
+<rect x="250" y="175" width="59.1" height="13" rx="3" fill="#1E5B49"/>
+<text x="317.1" y="186" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#1E5B49">0.3 h</text>
+<text x="40" y="216" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#171A16">Chase missing details</text>
+<rect x="250" y="200" width="295.3" height="13" rx="3" fill="#B9AF9B"/>
+<text x="553.3" y="211" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#7D7E72">1.5 h</text>
+<rect x="250" y="219" width="19.7" height="13" rx="3" fill="#1E5B49"/>
+<text x="277.7" y="230" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#1E5B49">0.1 h</text>
+<text x="40" y="260" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#171A16">Compare quotes</text>
+<rect x="250" y="244" width="393.8" height="13" rx="3" fill="#B9AF9B"/>
+<text x="651.8" y="255" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#7D7E72">2 h</text>
+<rect x="250" y="263" width="19.7" height="13" rx="3" fill="#1E5B49"/>
+<text x="277.7" y="274" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#1E5B49">0.1 h</text>
+<text x="40" y="304" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#171A16">Verify &amp; decide</text>
+<rect x="250" y="288" width="196.9" height="13" rx="3" fill="#B9AF9B"/>
+<text x="454.9" y="299" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#7D7E72">1 h</text>
+<rect x="250" y="307" width="19.7" height="13" rx="3" fill="#1E5B49"/>
+<text x="277.7" y="318" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#1E5B49">0.1 h</text>
+<text x="40" y="378" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#54574E">8.5 hours of buyer work → about 40 minutes with Munshi.</text>
+<text x="40" y="410" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10.5" fill="#7D7E72">Illustrative, based on the demo workflow. Not a benchmark.</text>
+</svg>

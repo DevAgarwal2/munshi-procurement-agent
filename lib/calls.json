@@ -1,0 +1,733 @@
+{
+  "shreeji": {
+    "id": "shreeji",
+    "supplierId": "shreeji",
+    "language": "gu-IN",
+    "supplierVoice": "Harshad",
+    "agentVoice": "Riyaa",
+    "lines": [
+      {
+        "id": "shreeji-01",
+        "speaker": "agent",
+        "at": "00:00",
+        "lang": "gu-IN",
+        "display": "Namaste, this is Munshi from Kettle & Co. We're looking for 5,000 250 ml food-grade paper cups with a two-colour logo for our café. Can you deliver to Ahmedabad within seven days?",
+        "original": "નમસ્તે, કેટલી એન્ડ કંપની તરફથી મુનશી બોલું છું. અમારા કાફે માટે પાંચ હજાર 250 ml ફૂડ-ગ્રેડ પેપર કપ જોઈએ, લોગો સાથે ટુ-કલર પ્રિન્ટ. અમદાવાદમાં સાત દિવસમાં ડિલિવરી થઈ શકે?",
+        "captures": []
+      },
+      {
+        "id": "shreeji-02",
+        "speaker": "supplier",
+        "at": "00:12",
+        "lang": "gu-IN",
+        "display": "Yes, 5,000 is doable. Base rate is ₹1.52 per cup. Printing is ₹0.06 per cup, and the plate is ₹800 one-time.",
+        "original": "હા જી, પાંચ હજાર થઈ જશે. બેસ રેટ એક રૂપિયા બાવન પૈસા પ્રતિ કપ. પ્રિન્ટિંગ છ પૈસા પ્રતિ કપ, અને પ્લેટ આઠસો રૂપિયા એક વાર.",
+        "captures": [
+          "base",
+          "print",
+          "plate"
+        ]
+      },
+      {
+        "id": "shreeji-03",
+        "speaker": "agent",
+        "at": "00:27",
+        "lang": "gu-IN",
+        "display": "Okay. What about GST and freight? And if we confirm today, can you adjust the plate charge? We're working to a tight all-in target.",
+        "original": "ઠીક છે. જીએસટી અને ફ્રેઇટ કેટલું આવશે? અને અમે આજે કન્ફર્મ કરીએ તો પ્લેટ ચાર્જમાં થોડી એડજસ્ટમેન્ટ થઈ શકે? અમારો ઓલ-ઇન ટાર્ગેટ થોડો ટાઇટ છે.",
+        "captures": []
+      },
+      {
+        "id": "shreeji-04",
+        "speaker": "supplier",
+        "at": "00:41",
+        "lang": "gu-IN",
+        "display": "GST is 12%, freight ₹350. I can do the plate for ₹500. Delivery in five days. 30% advance, balance on delivery.",
+        "original": "જીએસટી બાર ટકા, ફ્રેઇટ ત્રણસો પચાસ. પ્લેટ તમારા માટે પાંચસો કરી દઉં છું. ડિલિવરી પાંચ દિવસ. ત્રીસ ટકા એડવાન્સ, બાકી ડિલિવરી પર.",
+        "captures": [
+          "gst",
+          "freight",
+          "plate",
+          "lead",
+          "payment"
+        ],
+        "negotiation": true
+      },
+      {
+        "id": "shreeji-05",
+        "speaker": "agent",
+        "at": "00:58",
+        "lang": "gu-IN",
+        "display": "Perfect. Will the quote hold for seven days? Please send the food-grade certificate and GSTIN too.",
+        "original": "બરાબર. કોટેશન સાત દિવસ સુધી માન્ય રહેશે? ફૂડ-ગ્રેડ સર્ટિફિકેટ અને જીએસટીઆઇએન પણ મોકલી આપો.",
+        "captures": []
+      },
+      {
+        "id": "shreeji-06",
+        "speaker": "supplier",
+        "at": "01:12",
+        "lang": "gu-IN",
+        "display": "Yes, seven days. I'll send the certificate and GSTIN on WhatsApp. Confirm the order.",
+        "original": "હા જી, સાત દિવસ. સર્ટિફિકેટ અને જીએસટીઆઇએન વ્હોટ્સએપ પર મોકલી દઈશું. ઓર્ડર કન્ફર્મ કરી દો.",
+        "captures": [
+          "validity",
+          "docs"
+        ]
+      }
+    ]
+  },
+  "ecopack": {
+    "id": "ecopack",
+    "supplierId": "ecopack",
+    "language": "gu-IN",
+    "supplierVoice": "Devansh",
+    "agentVoice": "Riyaa",
+    "lines": [
+      {
+        "id": "ecopack-01",
+        "speaker": "agent",
+        "at": "00:00",
+        "lang": "gu-IN",
+        "display": "Namaste, this is Munshi from Kettle & Co. Our café needs 5,000 250 ml food-grade paper cups with a two-colour logo. Can you deliver to Ahmedabad within seven days?",
+        "original": "નમસ્તે, કેટલી એન્ડ કંપની તરફથી મુનશી બોલું છું. અમારા કાફે માટે પાંચ હજાર 250 ml ફૂડ-ગ્રેડ પેપર કપ જોઈએ, લોગો સાથે ટુ-કલર પ્રિન્ટ. અમદાવાદમાં સાત દિવસમાં આપી શકશો?",
+        "captures": []
+      },
+      {
+        "id": "ecopack-02",
+        "speaker": "supplier",
+        "at": "00:11",
+        "lang": "gu-IN",
+        "display": "Yes, 5,000 is possible. The rate is ₹1.44 per cup, printing ₹0.04, and the plate is ₹400 one-time.",
+        "original": "હા, પાંચ હજાર થઈ જશે. રેટ એક રૂપિયા ચુંમાલીસ પૈસા પ્રતિ કપ, પ્રિન્ટિંગ ચાર પૈસા, પ્લેટ ચારસો રૂપિયા એક વાર.",
+        "captures": [
+          "moq",
+          "base",
+          "print",
+          "plate"
+        ],
+        "negotiation": true
+      },
+      {
+        "id": "ecopack-03",
+        "speaker": "agent",
+        "at": "00:23",
+        "lang": "gu-IN",
+        "display": "Okay. What about freight and delivery? Our deadline is seven days.",
+        "original": "ઠીક છે. ફ્રેઇટ અને ડિલિવરી? અમારી ડેડલાઇન સાત દિવસ છે.",
+        "captures": []
+      },
+      {
+        "id": "ecopack-04",
+        "speaker": "supplier",
+        "at": "00:32",
+        "lang": "gu-IN",
+        "display": "Freight is ₹750. Delivery will take eight days. 50% advance. GST is 12%.",
+        "original": "ફ્રેઇટ સાતસો પચાસ. ડિલિવરી આઠ દિવસ લાગશે. પચાસ ટકા એડવાન્સ. જીએસટી બાર ટકા.",
+        "captures": [
+          "freight",
+          "lead",
+          "payment",
+          "gst"
+        ]
+      },
+      {
+        "id": "ecopack-05",
+        "speaker": "agent",
+        "at": "00:45",
+        "lang": "gu-IN",
+        "display": "Eight days misses our deadline. Can you do seven?",
+        "original": "આઠ દિવસ તો અમારી ડેડલાઇન ચૂકી જાય. સાત દિવસ શક્ય છે?",
+        "captures": []
+      },
+      {
+        "id": "ecopack-06",
+        "speaker": "supplier",
+        "at": "00:53",
+        "lang": "gu-IN",
+        "display": "No, eight days is firm. This is our best rate.",
+        "original": "ના, આઠ દિવસ પાક્કા. આ અમારો બેસ્ટ રેટ છે.",
+        "captures": [
+          "lead"
+        ]
+      }
+    ]
+  },
+  "prime": {
+    "id": "prime",
+    "supplierId": "prime",
+    "language": "gu-IN",
+    "supplierVoice": "Avinash",
+    "agentVoice": "Riyaa",
+    "lines": [
+      {
+        "id": "prime-01",
+        "speaker": "agent",
+        "at": "00:00",
+        "lang": "gu-IN",
+        "display": "Namaste, Munshi from Kettle & Co. We need 5,000 250 ml single-wall food-grade cups with a two-colour logo. Can you deliver to Ahmedabad in seven days?",
+        "original": "નમસ્તે, કેટલી એન્ડ કંપની તરફથી મુનશી. અમને પાંચ હજાર 250 ml સિંગલ-વોલ ફૂડ-ગ્રેડ કપ જોઈએ, ટુ-કલર લોગો પ્રિન્ટ. અમદાવાદમાં સાત દિવસમાં ડિલિવરી થઈ શકે?",
+        "captures": []
+      },
+      {
+        "id": "prime-02",
+        "speaker": "supplier",
+        "at": "00:12",
+        "lang": "gu-IN",
+        "display": "Yes. Base is ₹1.68, printing ₹0.07, plate ₹800. Freight ₹500, GST 12%. We can deliver in four days.",
+        "original": "હા. બેઝ એક રૂપિયા સડસઠ પૈસા, પ્રિન્ટિંગ સાત પૈસા, પ્લેટ આઠસો. ફ્રેઇટ પાંચસો, જીએસટી બાર ટકા. ચાર દિવસમાં પહોંચાડી દઈશું.",
+        "captures": [
+          "base",
+          "print",
+          "plate",
+          "freight",
+          "gst",
+          "lead",
+          "moq",
+          "payment"
+        ]
+      },
+      {
+        "id": "prime-03",
+        "speaker": "agent",
+        "at": "00:25",
+        "lang": "gu-IN",
+        "display": "That works out to about ₹2.25 a cup. Our budget is tight. Any relief for a first order?",
+        "original": "એટલે લગભગ બે રૂપિયા પચ્ચીસ પૈસા થાય. અમારો બજેટ ટાઇટ છે. પહેલા ઓર્ડરમાં કંઈ રાહત આપશો?",
+        "captures": []
+      },
+      {
+        "id": "prime-04",
+        "speaker": "supplier",
+        "at": "00:37",
+        "lang": "gu-IN",
+        "display": "We can't go below ₹1.65 base. But we include FSC and ISO certificates, and we can hold four-day delivery.",
+        "original": "બેઝ એક રૂપિયા પાંસઠથી નીચે નહીં જઈ શકીએ. પણ એફએસસી અને આઈએસઓ સર્ટિફિકેટ આપીએ છીએ, ચાર દિવસની ડિલિવરી પણ પકડી શકીએ.",
+        "captures": [
+          "base",
+          "certs"
+        ]
+      },
+      {
+        "id": "prime-05",
+        "speaker": "agent",
+        "at": "00:49",
+        "lang": "gu-IN",
+        "display": "Understood. Send the certificates and let me know how long the quote is valid.",
+        "original": "સમજ્યો. સર્ટિફિકેટ મોકલી આપો અને કોટેશન કેટલા દિવસ માન્ય છે?",
+        "captures": []
+      },
+      {
+        "id": "prime-06",
+        "speaker": "supplier",
+        "at": "00:58",
+        "lang": "gu-IN",
+        "display": "Seven days. I'll send the certificates by email.",
+        "original": "સાત દિવસ. સર્ટિફિકેટ ઈમેલ પર મોકલી દઈશું.",
+        "captures": [
+          "validity",
+          "docs"
+        ]
+      }
+    ]
+  },
+  "sahyadri": {
+    "id": "sahyadri",
+    "supplierId": "sahyadri",
+    "language": "mr-IN",
+    "supplierVoice": "Harshad",
+    "agentVoice": "Riyaa",
+    "lines": [
+      {
+        "id": "sahyadri-01",
+        "speaker": "agent",
+        "at": "00:00",
+        "lang": "mr-IN",
+        "display": "Namaskar, Munshi from Crumb & Co. Our bakery needs 500 kg of food-grade refined flour, bakery grade. Can you deliver to Pune within five days?",
+        "original": "नमस्कार, क्रंब अँड कंपनीकडून मुंशी बोलत आहे. आमच्या बेकरीसाठी ५०० किलो फूड-ग्रेड रिफाइंड पीठ हवे आहे, बेकरी ग्रेड. पाच दिवसांत पुण्यात पोहोचवू शकता का?",
+        "captures": []
+      },
+      {
+        "id": "sahyadri-02",
+        "speaker": "supplier",
+        "at": "00:11",
+        "lang": "mr-IN",
+        "display": "Yes. ₹32 per kg ex-mill, freight ₹900 to Pune, GST 5%. Minimum 250 kg. Three-day delivery.",
+        "original": "हो, नक्की. ३२ रुपये किलो मिलच्या दराने, पुण्यापर्यंत भाडे ९०० रुपये, जीएसटी ५%. किमान २५० किलो. तीन दिवसांत डिलिव्हरी.",
+        "captures": [
+          "base",
+          "freight",
+          "gst",
+          "moq",
+          "lead"
+        ]
+      },
+      {
+        "id": "sahyadri-03",
+        "speaker": "agent",
+        "at": "00:24",
+        "lang": "mr-IN",
+        "display": "Can you do ₹31.75 for 500 kg? And you have FSSAI and ISO 22000, right? What are the payment terms?",
+        "original": "५०० किलोसाठी ३१.७५ करता का? आणि एफएसएसएआय आणि आयएसओ २२००० आहेत ना? पेमेंट कसे करायचे?",
+        "captures": []
+      },
+      {
+        "id": "sahyadri-04",
+        "speaker": "supplier",
+        "at": "00:36",
+        "lang": "mr-IN",
+        "display": "₹31.75 works. 20% advance, balance on delivery. I'll send the certificates on WhatsApp. Quote valid seven days.",
+        "original": "३१.७५ चालेल. २०% अ‍ॅडव्हान्स, बाकी डिलिव्हरीवर. प्रमाणपत्रे व्हॉट्सअ‍ॅपवर पाठवतो. कोटेशन सात दिवस वैध.",
+        "captures": [
+          "payment",
+          "validity",
+          "docs"
+        ],
+        "negotiation": true
+      }
+    ]
+  },
+  "deccan": {
+    "id": "deccan",
+    "supplierId": "deccan",
+    "language": "mr-IN",
+    "supplierVoice": "Harshad",
+    "agentVoice": "Riyaa",
+    "lines": [
+      {
+        "id": "deccan-01",
+        "speaker": "agent",
+        "at": "00:00",
+        "lang": "mr-IN",
+        "display": "Namaste, Munshi from Crumb & Co. Our bakery needs 500 kg of FSSAI bakery-grade maida, delivered to Pune within five days. Can you supply?",
+        "original": "नमस्कार, क्रंब अँड कंपनीकडून मुंशी बोलत आहे. आमच्या बेकरीसाठी ५०० किलो FSSAI बेकरी-ग्रेड मैदा हवा आहे, पुण्यात पाच दिवसांत. तुम्ही देऊ शकता का?",
+        "captures": []
+      },
+      {
+        "id": "deccan-02",
+        "speaker": "supplier",
+        "at": "00:09",
+        "lang": "mr-IN",
+        "display": "Yes. ₹29.50 per kg, freight ₹1,800, GST 5%. Our MOQ is 1,000 kg, but I can do 500 for you. Delivery in six days.",
+        "original": "हो, नक्की. २९.५० रुपये किलो, भाडे १,८००, जीएसटी ५%. आमचा MOQ १,००० किलो आहे, पण तुमच्यासाठी ५०० करतो. डिलिव्हरी सहा दिवसांत.",
+        "captures": [
+          "base",
+          "freight",
+          "gst",
+          "moq"
+        ],
+        "negotiation": true
+      },
+      {
+        "id": "deccan-03",
+        "speaker": "agent",
+        "at": "00:22",
+        "lang": "mr-IN",
+        "display": "Six days is outside our deadline. Can you do five?",
+        "original": "सहा दिवस आमच्या डेडलाइनच्या बाहेर जाईल. पाच दिवसांत होऊ शकते का?",
+        "captures": []
+      },
+      {
+        "id": "deccan-04",
+        "speaker": "supplier",
+        "at": "00:29",
+        "lang": "mr-IN",
+        "display": "No, six days is firm. 40% advance. Quote valid five days.",
+        "original": "नाही, सहा दिवस पक्के आहेत. ४०% अ‍ॅडव्हान्स. कोटेशन पाच दिवस वैध.",
+        "captures": [
+          "lead",
+          "payment",
+          "validity"
+        ]
+      }
+    ]
+  },
+  "punegrain": {
+    "id": "punegrain",
+    "supplierId": "punegrain",
+    "language": "mr-IN",
+    "supplierVoice": "Devansh",
+    "agentVoice": "Riyaa",
+    "lines": [
+      {
+        "id": "punegrain-01",
+        "speaker": "agent",
+        "at": "00:00",
+        "lang": "mr-IN",
+        "display": "Munshi from Crumb & Co. We need 500 kg of bakery-grade maida, delivered to Pune in five days. What's your rate?",
+        "original": "क्रंब अँड कंपनीकडून मुंशी. ५०० किलो बेकरी-ग्रेड मैदा हवे आहे, पुण्यात पाच दिवसांत. तुमचा दर काय आहे?",
+        "captures": []
+      },
+      {
+        "id": "punegrain-02",
+        "speaker": "supplier",
+        "at": "00:09",
+        "lang": "mr-IN",
+        "display": "₹34 per kg, freight ₹500, GST 5%. Minimum 500 kg. Two-day delivery.",
+        "original": "३४ रुपये किलो, भाडे ५००, जीएसटी ५%. किमान ५०० किलो. दोन दिवसांत डिलिव्हरी.",
+        "captures": [
+          "base",
+          "freight",
+          "gst",
+          "moq",
+          "lead"
+        ]
+      },
+      {
+        "id": "punegrain-03",
+        "speaker": "agent",
+        "at": "00:20",
+        "lang": "mr-IN",
+        "display": "That's about ₹36.75 landed. Can you do ₹33.50 for a first order?",
+        "original": "म्हणजे सुमारे ३६.७५ रुपये किलो पडते. पहिल्या ऑर्डरसाठी ३३.५० करता का?",
+        "captures": []
+      },
+      {
+        "id": "punegrain-04",
+        "speaker": "supplier",
+        "at": "00:31",
+        "lang": "mr-IN",
+        "display": "₹33.75 is the best I can do. 30% advance. Quote valid seven days.",
+        "original": "३३.७५ हा सर्वोत्तम दर आहे. ३०% अ‍ॅडव्हान्स. कोटेशन ७ दिवस वैध.",
+        "captures": [
+          "base",
+          "payment",
+          "validity"
+        ],
+        "negotiation": true
+      }
+    ]
+  },
+  "delhiworks": {
+    "id": "delhiworks",
+    "supplierId": "delhiworks",
+    "language": "hi-IN",
+    "supplierVoice": "Avinash",
+    "agentVoice": "Riyaa",
+    "lines": [
+      {
+        "id": "delhiworks-01",
+        "speaker": "agent",
+        "at": "00:00",
+        "lang": "hi-IN",
+        "display": "Namaste, Munshi from Tandoor & Co. We need two commercial four-burner gas ranges for our new Delhi restaurant, delivered and installed within ten days.",
+        "original": "नमस्ते, तंदूर एंड कंपनी से मुंशी बोल रही हूँ। हमें दो कमर्शियल चार-बर्नर गैस रेंज चाहिए, दिल्ली में दस दिन के अंदर डिलीवरी और इंस्टॉलेशन के साथ।",
+        "captures": []
+      },
+      {
+        "id": "delhiworks-02",
+        "speaker": "supplier",
+        "at": "00:11",
+        "lang": "hi-IN",
+        "display": "Yes, we can do that. ₹21,500 per unit, installation ₹2,500, freight ₹1,200. GST 18%. Seven-day delivery.",
+        "original": "जी, हो जाएगा। 21,500 रुपये प्रति यूनिट, इंस्टॉलेशन 2,500, फ्रेट 1,200. जीएसटी 18%. सात दिन में डिलीवरी.",
+        "captures": [
+          "base",
+          "plate",
+          "freight",
+          "gst",
+          "lead"
+        ]
+      },
+      {
+        "id": "delhiworks-03",
+        "speaker": "agent",
+        "at": "00:25",
+        "lang": "hi-IN",
+        "display": "Can you do the installation for ₹2,000 including commissioning and a one-year warranty? What are the payment terms?",
+        "original": "इंस्टॉलेशन ₹2,000 में कमीशनिंग और एक साल की वारंटी के साथ कर सकते हैं? पेमेंट कैसे करना होगा?",
+        "captures": []
+      },
+      {
+        "id": "delhiworks-04",
+        "speaker": "supplier",
+        "at": "00:35",
+        "lang": "hi-IN",
+        "display": "Yes, ₹2,000 installation with commissioning and a one-year warranty. 40% advance, balance on installation. Quote valid ten days.",
+        "original": "हाँ, ₹2,000 इंस्टॉलेशन में कमीशनिंग और एक साल की वारंटी शामिल. 40% एडवांस, बाकी इंस्टॉलेशन के समय. कोटेशन दस दिन वैध.",
+        "captures": [
+          "certs",
+          "payment",
+          "validity",
+          "docs"
+        ],
+        "negotiation": true
+      }
+    ]
+  },
+  "bharatoven": {
+    "id": "bharatoven",
+    "supplierId": "bharatoven",
+    "language": "hi-IN",
+    "supplierVoice": "Avinash",
+    "agentVoice": "Riyaa",
+    "lines": [
+      {
+        "id": "bharatoven-01",
+        "speaker": "agent",
+        "at": "00:00",
+        "lang": "hi-IN",
+        "display": "Munshi from Tandoor & Co. Two four-burner ranges for a Delhi restaurant, with installation in ten days. What's your quote?",
+        "original": "तंदूर एंड कंपनी से मुंशी। दो चार-बर्नर रेंज, दिल्ली में दस दिन में इंस्टॉल के साथ। आपका कोटेशन क्या रहेगा?",
+        "captures": []
+      },
+      {
+        "id": "bharatoven-02",
+        "speaker": "supplier",
+        "at": "00:10",
+        "lang": "hi-IN",
+        "display": "₹19,800 per unit, installation ₹3,000, freight ₹900. GST 18%. Delivery in twelve days.",
+        "original": "19,800 प्रति यूनिट, इंस्टॉलेशन 3,000, फ्रेट 900. जीएसटी 18%. डिलीवरी बारह दिन.",
+        "captures": [
+          "base",
+          "plate",
+          "freight",
+          "gst",
+          "lead"
+        ]
+      },
+      {
+        "id": "bharatoven-03",
+        "speaker": "agent",
+        "at": "00:23",
+        "lang": "hi-IN",
+        "display": "Twelve days is outside our deadline. Can you do ten?",
+        "original": "बारह दिन हमारी डेडलाइन से बाहर है। दस दिन में कर सकते हैं?",
+        "captures": []
+      },
+      {
+        "id": "bharatoven-04",
+        "speaker": "supplier",
+        "at": "00:30",
+        "lang": "hi-IN",
+        "display": "No, it will take twelve days. 50% advance. Quote valid seven days.",
+        "original": "नहीं, बारह दिन लगेंगे। 50% एडवांस. कोटेशन सात दिन वैध.",
+        "captures": [
+          "payment",
+          "validity"
+        ]
+      }
+    ]
+  },
+  "punjabsteel": {
+    "id": "punjabsteel",
+    "supplierId": "punjabsteel",
+    "language": "hi-IN",
+    "supplierVoice": "Shubham",
+    "agentVoice": "Riyaa",
+    "lines": [
+      {
+        "id": "punjabsteel-01",
+        "speaker": "agent",
+        "at": "00:00",
+        "lang": "hi-IN",
+        "display": "Sat Sri Akal, Munshi from Tandoor & Co. We need two four-burner gas ranges, installed in Delhi within ten days. What's your rate?",
+        "original": "सत श्री अकाल, तंदूर एंड कंपनी से मुंशी बोल रही हूँ। हमें दो चार-बर्नर गैस रेंज चाहिए, दिल्ली में दस दिन में इंस्टॉल के साथ। आपका रेट क्या है?",
+        "captures": []
+      },
+      {
+        "id": "punjabsteel-02",
+        "speaker": "supplier",
+        "at": "00:10",
+        "lang": "hi-IN",
+        "display": "₹22,500 per unit, installation ₹2,000, freight ₹1,800. GST 18%. Delivery in five days.",
+        "original": "22,500 प्रति यूनिट, इंस्टॉलेशन 2,000, फ्रेट 1,800. जीएसटी 18%. पाँच दिन में डिलीवरी.",
+        "captures": [
+          "base",
+          "plate",
+          "freight",
+          "gst",
+          "lead"
+        ]
+      },
+      {
+        "id": "punjabsteel-03",
+        "speaker": "agent",
+        "at": "00:24",
+        "lang": "hi-IN",
+        "display": "That's about ₹28,800 a unit. Can you sharpen the unit rate a little?",
+        "original": "यह लगभग 28,800 प्रति यूनिट पड़ता है। क्या 28,000 से कम कर सकते हैं?",
+        "captures": []
+      },
+      {
+        "id": "punjabsteel-04",
+        "speaker": "supplier",
+        "at": "00:35",
+        "lang": "hi-IN",
+        "display": "Best I can do is ₹22,300 per unit. 30% advance. Quote valid ten days.",
+        "original": "सबसे अच्छा 22,300 प्रति यूनिट। 30% एडवांस. कोटेशन दस दिन वैध.",
+        "captures": [
+          "base",
+          "payment",
+          "validity"
+        ],
+        "negotiation": true
+      }
+    ]
+  },
+  "mumbailinen": {
+    "id": "mumbailinen",
+    "supplierId": "mumbailinen",
+    "language": "hi-IN",
+    "supplierVoice": "Devansh",
+    "agentVoice": "Riyaa",
+    "lines": [
+      {
+        "id": "mumbailinen-01",
+        "speaker": "agent",
+        "at": "00:00",
+        "lang": "hi-IN",
+        "display": "Namaskar, Munshi from Glow Studio. We need 1,000 white cotton salon towels, colour-fast. Can you deliver to Mumbai within seven days?",
+        "original": "नमस्कार, ग्लो स्टूडियो से मुंशी बोल रही हूँ। हमें 1,000 सफेद सूती सलून तौलिए चाहिए, रंग न छूटे. सात दिन में मुंबई में पहुँचा सकते हैं?",
+        "captures": []
+      },
+      {
+        "id": "mumbailinen-02",
+        "speaker": "supplier",
+        "at": "00:10",
+        "lang": "hi-IN",
+        "display": "Yes. ₹42 per towel, freight ₹600, GST 12%. Minimum 500. Four-day delivery.",
+        "original": "हाँ, 42 रुपये प्रति तौलिया, फ्रेट 600, जीएसटी 12%. कम से कम 500. चार दिन में डिलीवरी.",
+        "captures": [
+          "base",
+          "freight",
+          "gst",
+          "moq",
+          "lead"
+        ]
+      },
+      {
+        "id": "mumbailinen-03",
+        "speaker": "agent",
+        "at": "00:22",
+        "lang": "hi-IN",
+        "display": "Can you do delivery for ₹400 on a first order and hold the rate? You have OEKO-TEX, right? What are the payment terms?",
+        "original": "ओको-टेक्स सर्टिफिकेट है ना? पहले ऑर्डर के लिए भाड़ा 400 कर सकते हैं? पेमेंट कैसे?",
+        "captures": []
+      },
+      {
+        "id": "mumbailinen-04",
+        "speaker": "supplier",
+        "at": "00:33",
+        "lang": "hi-IN",
+        "display": "₹400 freight, and the rate holds. OEKO-TEX certified. 30% advance, balance on delivery. Quote valid seven days.",
+        "original": "हाँ, 400 फ्रेट, और रेट टिकेगा. ओको-टेक्स है. 30% एडवांस, बाकी डिलीवरी पर. कोटेशन सात दिन वैध.",
+        "captures": [
+          "docs",
+          "payment",
+          "validity"
+        ],
+        "negotiation": true
+      }
+    ]
+  },
+  "surattextile": {
+    "id": "surattextile",
+    "supplierId": "surattextile",
+    "language": "hi-IN",
+    "supplierVoice": "Harshad",
+    "agentVoice": "Riyaa",
+    "lines": [
+      {
+        "id": "surattextile-01",
+        "speaker": "agent",
+        "at": "00:00",
+        "lang": "hi-IN",
+        "display": "Munshi from Glow Studio. We need 1,000 white cotton towels, colour-fast. Can you deliver to Mumbai within seven days?",
+        "original": "ग्लो स्टूडियो से मुंशी बोल रही हूँ। हमें 1,000 सफेद सूती तौलिए चाहिए, रंग न छूटे. मुंबई में सात दिन में पहुँचा सकते हैं?",
+        "captures": []
+      },
+      {
+        "id": "surattextile-02",
+        "speaker": "supplier",
+        "at": "00:09",
+        "lang": "hi-IN",
+        "display": "₹38 per towel, freight ₹1,400, GST 12%. MOQ 1,000. Delivery in eight days.",
+        "original": "38 रुपये प्रति तौलिया, फ्रेट 1,400, जीएसटी 12%. MOQ 1,000. डिलीवरी आठ दिन.",
+        "captures": [
+          "base",
+          "freight",
+          "gst",
+          "moq"
+        ]
+      },
+      {
+        "id": "surattextile-03",
+        "speaker": "agent",
+        "at": "00:21",
+        "lang": "hi-IN",
+        "display": "Eight days misses our deadline. Can you do seven?",
+        "original": "आठ दिन हमारी डेडलाइन से बाहर है। सात दिन में हो सकता है?",
+        "captures": []
+      },
+      {
+        "id": "surattextile-04",
+        "speaker": "supplier",
+        "at": "00:28",
+        "lang": "hi-IN",
+        "display": "No, eight days. 50% advance. Quote valid five days.",
+        "original": "नहीं, आठ दिन. 50% एडवांस. कोटेशन पाँच दिन वैध.",
+        "captures": [
+          "lead",
+          "payment",
+          "validity"
+        ]
+      }
+    ]
+  },
+  "delhitowel": {
+    "id": "delhitowel",
+    "supplierId": "delhitowel",
+    "language": "hi-IN",
+    "supplierVoice": "Devansh",
+    "agentVoice": "Riyaa",
+    "lines": [
+      {
+        "id": "delhitowel-01",
+        "speaker": "agent",
+        "at": "00:00",
+        "lang": "hi-IN",
+        "display": "Munshi from Glow Studio. We need 1,000 white cotton salon towels, colour-fast, delivered to Mumbai in seven days.",
+        "original": "ग्लो स्टूडियो से मुंशी बोल रही हूँ। हमें 1,000 सफेद सूती सलून तौलिए चाहिए, रंग न छूटे. मुंबई में सात दिन में डिलीवरी हो जाएगी?",
+        "captures": []
+      },
+      {
+        "id": "delhitowel-02",
+        "speaker": "supplier",
+        "at": "00:09",
+        "lang": "hi-IN",
+        "display": "₹46 per towel, freight ₹1,100, GST 12%. MOQ 500. Five-day delivery.",
+        "original": "46 रुपये प्रति तौलिया, फ्रेट 1,100, जीएसटी 12%. MOQ 500. पाँच दिन में डिलीवरी.",
+        "captures": [
+          "base",
+          "freight",
+          "gst",
+          "moq",
+          "lead"
+        ]
+      },
+      {
+        "id": "delhitowel-03",
+        "speaker": "agent",
+        "at": "00:21",
+        "lang": "hi-IN",
+        "display": "That's about ₹52.75 a towel. Can you do ₹44 for a first order?",
+        "original": "यह लगभग 52.75 रुपये प्रति तौलिया पड़ता है। पहले ऑर्डर के लिए 44 रुपये कर सकते हैं?",
+        "captures": []
+      },
+      {
+        "id": "delhitowel-04",
+        "speaker": "supplier",
+        "at": "00:32",
+        "lang": "hi-IN",
+        "display": "₹44.50 is the best I can do. 25% advance. Quote valid seven days.",
+        "original": "44.50 सबसे अच्छा दर है। 25% एडवांस. कोटेशन सात दिन वैध.",
+        "captures": [
+          "base",
+          "payment",
+          "validity"
+        ],
+        "negotiation": true
+      }
+    ]
+  }
+}
