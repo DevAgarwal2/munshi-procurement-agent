@@ -2,6 +2,8 @@
 
 **A buyer-side AI procurement agent for Indian small businesses.** Describe a purchase in plain language; Munshi screens suppliers, calls them in Indic languages, normalises every quote to a landed cost, verifies the details, and returns **one evidence-backed decision**. The buyer approves the supplier and the spend — Munshi never buys on its own.
 
+**Live demo → [munshi-procurement-agent.vercel.app](https://munshi-procurement-agent.vercel.app)**
+
 `Next.js 16` · `React 19` · `TypeScript` · `Gnani Prisma v3.0` · `Gnani Timbre v3.0` · `Mistral Small 4` · deterministic decision engine
 
 ![Munshi brief screen](docs/screenshots/brief.png)
@@ -167,6 +169,8 @@ npm run dev
 ```
 
 Open http://localhost:3000.
+
+**Live deployment:** [munshi-procurement-agent.vercel.app](https://munshi-procurement-agent.vercel.app) (Vercel, Node 22). Voice input is converted to 16 kHz WAV in the browser, so it works on Vercel without a system `ffmpeg`.
 
 ### Environment
 

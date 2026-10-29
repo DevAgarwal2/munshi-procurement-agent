@@ -8,3 +8,7 @@ out
 *.tsbuildinfo
 next-env.d.ts
 .impeccable
+.vercel
+.env*
+
+.vercel
