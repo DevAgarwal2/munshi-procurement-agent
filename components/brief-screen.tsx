@@ -18,6 +18,56 @@ import { SCENARIOS, SCENARIO_ORDER } from "@/lib/scenarios";
 import type { Scenario } from "@/lib/types";
 import { Stamp } from "./ui";
 
+
+function encodeWav(samples: Float32Array, sampleRate: number) {
+  const buffer = new ArrayBuffer(44 + samples.length * 2);
+  const view = new DataView(buffer);
+  const write = (offset: number, value: string) => {
+    for (let i = 0; i < value.length; i++) view.setUint8(offset + i, value.charCodeAt(i));
+  };
+  write(0, "RIFF");
+  view.setUint32(4, 36 + samples.length * 2, true);
+  write(8, "WAVE");
+  write(12, "fmt ");
+  view.setUint32(16, 16, true);
+  view.setUint16(20, 1, true);
+  view.setUint16(22, 1, true);
+  view.setUint32(24, sampleRate, true);
+  view.setUint32(28, sampleRate * 2, true);
+  view.setUint16(32, 2, true);
+  view.setUint16(34, 16, true);
+  write(36, "data");
+  view.setUint32(40, samples.length * 2, true);
+  let offset = 44;
+  for (let i = 0; i < samples.length; i++) {
+    const sample = Math.max(-1, Math.min(1, samples[i]));
+    view.setInt16(offset, sample < 0 ? sample * 0x8000 : sample * 0x7fff, true);
+    offset += 2;
+  }
+  return new Blob([view], { type: "audio/wav" });
+}
+
+async function blobToWav(blob: Blob): Promise<Blob> {
+  const AudioCtx = window.AudioContext || (window as unknown as { webkitAudioContext?: typeof AudioContext }).webkitAudioContext;
+  if (!AudioCtx) return blob;
+  const ctx = new AudioCtx();
+  try {
+    const decoded = await ctx.decodeAudioData(await blob.arrayBuffer());
+    const rate = 16000;
+    const offline = new OfflineAudioContext(1, Math.ceil(decoded.duration * rate), rate);
+    const source = offline.createBufferSource();
+    source.buffer = decoded;
+    source.connect(offline.destination);
+    source.start();
+    const rendered = await offline.startRendering();
+    return encodeWav(rendered.getChannelData(0), rate);
+  } catch {
+    return blob;
+  } finally {
+    void ctx.close();
+  }
+}
+
 function Field({
   label,
   value,
@@ -96,6 +146,11 @@ export function BriefScreen({
   }, [recording]);
 
   useEffect(() => {
+    if (recording && seconds >= 30) void stopRecording();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [seconds, recording]);
+
+  useEffect(() => {
     return () => {
       recorder.current?.stream.getTracks().forEach((t) => t.stop());
       stream.current?.getTracks().forEach((t) => t.stop());
@@ -133,9 +188,10 @@ export function BriefScreen({
       };
       rec.onstop = async () => {
         media.getTracks().forEach((t) => t.stop());
-        const blob = new Blob(chunks.current, { type: rec.mimeType || "audio/webm" });
+        const raw = new Blob(chunks.current, { type: rec.mimeType || "audio/webm" });
+        const blob = await blobToWav(raw);
         const form = new FormData();
-        form.append("audio", blob, "brief.webm");
+        form.append("audio", blob, blob.type === "audio/wav" ? "brief.wav" : "brief.webm");
         try {
           const res = await fetch("/api/stt", { method: "POST", body: form });
           const data = await res.json();
