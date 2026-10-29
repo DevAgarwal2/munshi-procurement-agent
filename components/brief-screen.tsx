@@ -200,7 +200,9 @@ export function BriefScreen({
           onBrief(data.transcript);
           setVoiceState("idle");
           setVoiceNote(
-            `Transcribed with ${data.model}${data.language ? ` · ${data.language}` : ""} · ${data.duration}s`
+            `Transcribed with ${data.model}${data.language ? ` · ${data.language}` : ""}${
+              data.duration ? ` · ${data.duration}s` : ""
+            }`
           );
         } catch (error) {
           setVoiceState("error");
